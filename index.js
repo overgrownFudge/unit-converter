@@ -1,4 +1,3 @@
-// javascript
 let numEl = document.getElementById("num-el")
 let lengthNum = document.getElementById("length-num")
 let volumeNum = document.getElementById("volume-num")
@@ -27,11 +26,3 @@ function convert() {
   let poundsToKilogramsValue = numEl.value + " pounds = " + poundsToKilograms.toFixed(3) + " kilograms"
   massNum.textContent = kilogramsToPoundsValue + " | " + poundsToKilogramsValue
   }
-  
-  
-function displayUnits() {
-  // display the units on the page
-  lengthNum.textContent = convertLength()
-  volumeNum.textContent = convertVolume() 
-  massNum.textContent = convertMass()
-}
